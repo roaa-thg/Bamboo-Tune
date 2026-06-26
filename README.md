@@ -1,5 +1,5 @@
 # 🌱 BAMBOO TUNE: Agritech Customer Service Assistant
-
+Fine-tuned Qwen1.5-1.8B (QLoRA) customer-service assistant for agritech, benchmarked against the base model with an LLM judge.
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Transformers](https://img.shields.io/badge/🤗-Transformers%20%7C%20PEFT%20%7C%20TRL-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
