@@ -1,0 +1,14 @@
+# Training / evaluation dependencies (Colab T4, QLoRA fine-tuning + LLM judge)
+# Pinned to the versions used in the notebook. torch is left unpinned so it can
+# match your CUDA build (the notebook used torch 2.x +cu13 on a Colab T4).
+torch
+transformers==5.12.1
+trl==1.6.0
+peft
+bitsandbytes==0.49.2
+accelerate==1.14.0
+datasets==5.0.0
+wandb==0.28.0
+openai
+matplotlib
+pandas

@@ -1,0 +1,10 @@
+# App / inference dependencies (Streamlit app, HF Space, Docker)
+# The app loads the LoRA adapter from Hugging Face — no training libs needed here.
+streamlit==1.41.1
+torch
+transformers
+peft
+accelerate
+safetensors
+sentencepiece
+huggingface_hub
